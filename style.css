@@ -1,0 +1,262 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+body
+{
+    overflow-x: hidden;
+}
+header {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 1rem 0;
+  align-items: center;
+}
+
+header img {
+  width: 70px;
+  height: 70px;
+}
+
+header nav {
+    display: flex;
+    gap: .5rem;
+    flex-wrap: wrap;
+}
+
+header nav a {
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+.hero {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding: 1rem;
+  align-items: center;
+  background-color: #e8e9f2;
+  max-width: 1300px;
+  margin: 0 auto
+}
+.hero .slogan {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 50rem;
+}
+.hero .slogan h1 {
+  font-size: 2.5rem;
+}
+.hero .slogan p {
+  max-width: 40rem;
+  line-height: 1.7rem;
+}
+.hero .slogan .tombol_kontak {
+  background-color: rgb(0, 132, 255);
+  color: white;
+  padding: 0.6rem;
+  width: fit-content;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.tentang_kami {
+  display: flex;
+  width: 100%;
+  padding: 4rem 1rem;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 1300px;
+  margin: 0 auto;
+  
+}
+.tentang_kami h1 {
+  text-align: left;
+}
+.tentang_kami p {
+  line-height: 1.7rem;
+  
+}
+.makanan
+h1
+{
+   margin:0 auto;
+   text-align: center;
+   margin-bottom: 3rem;
+   
+}
+.makanan
+.makanan_container
+{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.makanan
+.makanan_container
+.card
+{
+    width: 15rem;
+    flex-direction: column;
+    display: flex;
+    gap: 0.2rem;
+    padding: 1rem;
+    background-color: #e8e9f2;
+    border-radius: 1rem;
+}
+.makanan
+.makanan_container
+.card
+img 
+{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+.makanan
+.makanan_container
+.card
+.nama_makanan
+{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.makanan
+.makanan_container
+.card
+.tombol_pesan
+{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    padding: 0.5rem;
+    width: fit-content;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+
+
+
+.minuman
+h1
+{
+   margin:0 auto;
+   text-align: center;
+   margin-bottom: 3rem;
+   margin-top: 4rem;
+   
+}
+.minuman
+.minuman_container
+{
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.minuman
+.minuman_container
+.card
+{
+    width: 15rem;
+    flex-direction: column;
+    display: flex;
+    gap: 0.2rem;
+    padding: 1rem;
+    background-color: #e8e9f2;
+    border-radius: 1rem;
+}
+.minuman
+.minuman_container
+.card
+img 
+{
+    width: 15rem;
+    height: 15rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+.minuman
+.minuman_container
+.card
+.nama_minuman
+{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.minuman
+.minuman_container
+.card
+.tombol_pesan
+{
+    background-color: rgb(0, 132, 255);
+    color: white;
+    padding: 0.5rem;
+    width: fit-content;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+}
+.kontak_lokasi
+{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 3rem;
+    gap: 2rem;
+}
+.kontak_lokasi
+.sosial_media
+{ 
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.kontak_lokasi
+.sosial_media
+div
+img
+{ 
+    width: 13rem;
+    height: 13rem;
+    object-fit: cover;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 500px){
+    header{
+        flex-direction: column;
+    }
+
+    .kontak_lokasi{
+        flex-direction: column;
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 813px) {
+.hero {
+      flex-direction: column;
+
+    }
+  }
